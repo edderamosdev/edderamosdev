@@ -9,6 +9,7 @@
 
 body{
     background: #333C44;
+    color: #ededed;
 }
 
 .header {
@@ -16,5 +17,49 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    background: yellowgreen;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #ededed;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.3s;
+}
+
+.navbar a:hover, 
+.navbar a.active {
+    color: #00abf0;
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.hero-content {
+    max-wigth: 600px;
+}
+
+.hero-content h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.hero-content h3{
+    font-size: 26px;
+    color: #00abf0
+}
+
+.hero-content p{
+    margin: 20px 0 20px;
 }
