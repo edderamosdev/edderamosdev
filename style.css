@@ -6,3 +6,7 @@
     box-sizing: border-box;
     font-family: 'Ubuntu Sans Mono', monospace;
 }
+
+body{
+    background: #333C44
+}
