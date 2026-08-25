@@ -47,7 +47,7 @@ body{
 }
 
 .hero-content {
-    max-wigth: 600px;
+    max-width: 600px;
 }
 
 .hero-content h1{
@@ -57,7 +57,7 @@ body{
 
 .hero-content h3{
     font-size: 26px;
-    color: #00abf0
+    color: #00abf0;
 }
 
 .hero-content p{
